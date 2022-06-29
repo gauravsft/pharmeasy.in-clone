@@ -1,12 +1,12 @@
 
 import './App.css';
-import Navbar from "./components/Homepage/Landing_page/Navbar"
+import Home from "./components/Home"
 
 function App() {
   return (
     <div className="App">
-  
-     <h1>Pranav</h1>
+  <Home />
+
     </div>
   );
 }
