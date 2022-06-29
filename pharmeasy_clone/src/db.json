@@ -328,8 +328,8 @@
     ],
     "trendingNearYou":[
         {
-            "img":"https://cdn01.pharmeasy.in/dam/products_otc/I32680/accu-chek-instant-glucometer-test-strips-box-of-50-1-1654166925.jpg?dim=1440x0",
-            "heading":"Dr Morepen Bg 03 Glucometer Test Strips Box Of 25",
+            "img":"https://cdn01.pharmeasy.in/dam/products_otc/I32680/accu-chek-instant-glucometer-test-strips-box-of-50-1-1654166925.jpg?dim=320x320&dpr=1&q=100",
+            "heading":"Accu-Chek Instant Glucometer Test Strips Box Of 50",
             "mrpTag":"MRP",
             "mrpPrice":"₹975",
             "actualPrice":"₹926.25",
@@ -344,12 +344,12 @@
             "offer":"48% OFF"
         },
         {
-            "img":"",
-            "heading":"",
+            "img":"https://cdn01.pharmeasy.in/dam/products_otc/I06487/dr-morepen-bg-03-glucometer-test-strips-box-of-25-1-1654168049.jpg?dim=1440x0",
+            "heading":"Dr Morepen Bg 03 Glucometer Test Strips Box Of 25",
             "mrpTag":"MRP",
-            "mrpPrice":"₹299",
-            "actualPrice":"₹299",
-            "offer":"% OFF"
+            "mrpPrice":"₹1490",
+            "actualPrice":"₹998.3",
+            "offer":"33% OFF"
         },
         {
             "img":"",
