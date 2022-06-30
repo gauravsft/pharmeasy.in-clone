@@ -12,14 +12,15 @@ import styled from "styled-components";
 
 
 
+
 const  Home = () =>{
   
     return ( 
-    <div>
-        <Navbar />
+    <div >
+        <Navbar color={"red"}/>
 
         <Sliderdata />
-        <div>
+        <div  height={'647px'} width={'97%'} display={'flex'} marginLeft = { '1.5%' } marginTop={'40px'} marginBottom={'100px'}>
             <img src="https://cms-contents.pharmeasy.in/banner/4539563004d-MEGA20_App.jpg" alt="" />
             <img src="https://cms-contents.pharmeasy.in/banner/3924facbf8c-HP_.jpg" alt="" />
             <img src="https://cms-contents.pharmeasy.in/banner/8b3f5424f6d-WELCOME400_HP.jpg" alt="" />

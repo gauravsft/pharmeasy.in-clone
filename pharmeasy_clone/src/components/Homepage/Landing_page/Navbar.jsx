@@ -18,7 +18,6 @@ const  Navbar = () =>{
      <p>Address</p>
    </div>
    <div>
-    
 	<p>Download App</p>
 <p>User</p>
 <p>Offers</p>

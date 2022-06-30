@@ -23,7 +23,7 @@ const  NewLanches = (sliderData) =>{
          <div style = {{display:"flex"}}>
       {data.map((product) => (
         <div style = {{border:"1px solid #cecece", marginRight:"1rem",padding:"0.8rem",marginBottom:"1rem"}}  >
-          <img src = {product.img}/>
+          <img src = {product.img} alt="Image"/>
           <h3>{product.heading}</h3>
           <p>{product.mrpPrice}</p>
           <p>{product.actualPrice}</p>
