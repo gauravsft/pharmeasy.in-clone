@@ -431,5 +431,59 @@
             "actualPrice":"₹299",
             "offer":"% OFF"
         }
+    ],
+    "offersJustForYou":[
+        {
+            "img":"https://cms-contents.pharmeasy.in/offer/8d3081d6715-HSD_Logo.jpg?dim=1440x0",
+            "pTag":"Healthy Saving Days Sale is LIVE!"
+        },
+        {
+            "img":"Healthy Saving Days Sale is LIVE!",
+            "pTag":"Flat 25% OFF"
+        },
+        {
+            "img":"https://cms-contents.pharmeasy.in/offer/81308cc59b5-FLAT_20.jpg?dim=1440x0",
+            "pTag":"Flat 20% OFF + up to Rs.1000 surprise cashback"
+        },
+        {
+            "img":"https://cms-contents.pharmeasy.in/offer/2846076d5d2-Diagnostics-10-min.png?dim=1440x0",
+            "pTag":"Order medicines and get FLAT 400 OFF on Comprehensive Full Body..."
+        },
+        {
+            "img":"https://cms-contents.pharmeasy.in/offer/16080f30d6a-1.jpg?dim=1440x0",
+            "pTag":"Get flat 23% off on Medicine + Get 3 live Byju’s online classes at Rs..."
+        },
+        {
+            "img":"https://cms-contents.pharmeasy.in/offer/40ef59a3196-Diagnostics-11-min.png?dim=1440x0",
+            "pTag":"Order medicines worth Rs.1000 and get FLAT Rs.1000 OFF on booking 2..."
+        },
+        {
+            "img":"https://cms-contents.pharmeasy.in/offer/bb20b7c6548-2.jpg?dim=1440x0",
+            "pTag":"Get flat 23% off on medicine + Get 15% upto Rs.200 Instant Discount..."
+        },
+        {
+            "img":"https://cms-contents.pharmeasy.in/offer/b964e016470-Diagnostics-09-min.png?dim=1440x0",
+            "pTag":"Get FLAT Rs.400 OFF on orders above Rs 1399."
+        },
+        {
+            "img":"https://cms-contents.pharmeasy.in/offer/beff77d2d65-Diagnostics-11-min.png?dim=1440x0",
+            "pTag":"Get FLAT Rs.1000 OFF on booking 2 Comprehensive Full Body checkup with Vitamin D and B12 Packages..."
+        },
+        {
+            "img":"https://cms-contents.pharmeasy.in/offer/dceebedd00f-Diagnostics-09-min.png?dim=1440x0",
+            "pTag":"Get FLAT Rs.400 cashback on PharmEasy Labtests booked above..."
+        },
+        {
+            "img":"https://cms-contents.pharmeasy.in/offer/a39f3a0b277-Diagnostics-01-min.png?dim=1440x0",
+            "pTag":"Get FLAT Rs.200 cashback on PharmEasy Labtests booked above Rs.699. "
+        },
+        {
+            "img":"",
+            "pTag":""
+        },
+        {
+            "img":"",
+            "pTag":""
+        }
     ]
 }
