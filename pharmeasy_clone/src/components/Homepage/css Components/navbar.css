@@ -1,0 +1,43 @@
+
+.main_navbar_box{
+    display: flex;
+  
+}
+
+
+.shopByconcern{
+    height:500px;
+    width:auto;
+    display: flex;
+    background-color: teal;
+}
+.shopByconcern>div>img{
+    height:100%;
+    width:100%;
+}
+.navbar_rightSide{
+    display: flex;
+    width:400px;
+    justify-content: space-between;
+margin-right: 30px;
+}
+.offersJustForYou{
+height:200px;
+}
+.labTestByHealthConcern_home{
+    display: flex;
+    gap:20px;
+    height:100px;
+}
+
+/* Home page css */
+.below_navbar_box{
+    width:100%;
+    margin: auto;
+
+}
+.below_navbar_box_topslide{
+    width:100%;
+    display: flex;
+    justify-content: space space-between;
+}
