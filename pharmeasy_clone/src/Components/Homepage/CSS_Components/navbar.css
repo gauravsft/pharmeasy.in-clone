@@ -5,10 +5,10 @@
    margin: auto;
    overflow: hidden;
    position: fixed;
-   top: 0;
    width: 100%;
    box-shadow: rgb(0 0 0 / 12%) 0px -1px 0px inset;
    align-items: center;
+   background-color: white;
    
 }
 .navbar-img_add{

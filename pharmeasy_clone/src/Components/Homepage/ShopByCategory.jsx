@@ -1,24 +1,44 @@
-// import React from "react";
+import React from "react";
 
 
-// const ShopByCategory = () => {
+const ShopByCategory = () => {
 
+    const [data, setData]=React.useState([]);
 
-//     return (
-  
-//       <div style={{display:"flex" }} >
-//            {
-//       posts.map((product)=> (
+    const getData  = async ()=>{
+        try{
+        let data= await fetch("http://localhost:8080/shopByCategory");
+      let res= await data.json();
+      setData(res)
+   
+        }
+        catch(err){
+            console.lohg(err)
+        }
       
-//       <div >
-//         <img src={product.img} alt="" />
-//         <h3>{product.head}</h3>
-//         <p>{product.pTag}</p>
 
-//       </div>
-//       )) } 
-//       </div>
-//     )
-//   };
+    }
+    React.useEffect(()=>{
+        getData();
+    },[])
+    
+
+
+    return (
   
-//   export default ShopByCategory;
+      <div style={{display:"flex" }} >
+           {
+      data.map((product)=> (
+      
+      <div >
+        <img src={product.img} alt="" />
+        <h3>{product.head}</h3>
+        <p>{product.pTag}</p>
+
+      </div>
+      )) } 
+      </div>
+    )
+  };
+  
+  export default ShopByCategory;

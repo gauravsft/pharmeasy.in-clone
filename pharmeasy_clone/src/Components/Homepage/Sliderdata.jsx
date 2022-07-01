@@ -1,25 +1,41 @@
-// import React from "react";
-// import  ReactDOM  from "react-dom";
-// import React, { useState, useEffect } from "react";
+import React from "react";
+import  ReactDOM  from "react-dom";
 
-// const Sliderdata = () => {
+const Sliderdata = () => {
+    const [data, setData]=React.useState([]);
 
-
-//     return (
-  
-//       <div style={{display:"flex" }} >
-//            {
-//       posts.map((product)=> (
+    const getData  = async ()=>{
+        try{
+        let data= await fetch("http://localhost:8080/sliderdata");
+      let res= await data.json();
+      setData(res)
+   
+        }
+        catch(err){
+            console.lohg(err)
+        }
       
-//       <div >
-//         <img src={product.img} alt="" />
-//         <h3>{product.head}</h3>
-//         <p>{product.pTag}</p>
 
-//       </div>
-//       )) } 
-//       </div>
-//     )
-//   };
+    }
+    React.useEffect(()=>{
+        getData();
+    },[])
+
+    return (
   
-//   export default Sliderdata;
+      <div style={{display:"flex" }} >
+           {
+      data.map((product)=> (
+      
+      <div >
+        <img src={product.img} alt="" />
+        <h3>{product.head}</h3>
+        <p>{product.pTag}</p>
+
+      </div>
+      )) } 
+      </div>
+    )
+  };
+  
+  export default Sliderdata;

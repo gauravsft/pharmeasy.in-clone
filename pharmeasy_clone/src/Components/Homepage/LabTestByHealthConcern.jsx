@@ -10,7 +10,7 @@ const LabTestByHealthConcern = () => {
         let data= await fetch("http://localhost:8080/labTestByHealthConcern");
       let res= await data.json();
       setData(res)
-      console.log(res)
+
         }
         catch(err){
             console.lohg(err)
@@ -22,7 +22,7 @@ const LabTestByHealthConcern = () => {
         getData();
     },[])
     
- console.log(data)
+
 
     return (
   
