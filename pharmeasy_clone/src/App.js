@@ -1,5 +1,7 @@
+import React from "react";
+import Home from "./components/Home.jsx"
+import ReactDOM from "react-dom"
 
-import Home from "./components/Homepage/Home"
 
 function App() {
   return (

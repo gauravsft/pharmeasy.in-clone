@@ -1,8 +1,8 @@
 import React from "react";
-import { useState, useEffect } from "react";
 
 
-const  FrequentlyBookedLabtests = (sliderData) =>{
+
+const  FrequentlyBookedLabtests = () =>{
    const [data, setData] = React.useState ([])
   
 
@@ -16,6 +16,7 @@ const  FrequentlyBookedLabtests = (sliderData) =>{
         }   
       };
       getData();
+      console.log(1)
 
     return (
         <div>
@@ -23,7 +24,7 @@ const  FrequentlyBookedLabtests = (sliderData) =>{
          <div style = {{display:"flex"}}>
       {data.map((product) => (
         <div >
-          <img src = {product.img}/>
+          <img src = {product.img} alt=""/>
           <h3>{product.heading}</h3>
           <p>{product.ptag}</p>
           <p>{product.mrpPrice}</p>

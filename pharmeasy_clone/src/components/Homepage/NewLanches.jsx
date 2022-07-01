@@ -2,14 +2,13 @@ import React from "react";
 
 
 
-
-const  ShopByCate = () =>{
+const  NewLanches = () =>{
    const [data, setData] = React.useState ([])
   
 
  const getData = async () => {
         try {
-          let res = await fetch(` http://localhost:8080/shopByCategory`);
+          let res = await fetch(` http://localhost:8080/newLanches`);
           let sliderData = await res.json();
           setData(sliderData);
         } catch (err) {
@@ -23,10 +22,12 @@ const  ShopByCate = () =>{
            
          <div style = {{display:"flex"}}>
       {data.map((product) => (
-        <div  >
-          <img src = {product.img} alt="" />
-          <h3>{product.head}</h3>
-          <p>{product.ptag}</p>
+        <div style = {{border:"1px solid #cecece", marginRight:"1rem",padding:"0.8rem",marginBottom:"1rem"}}  >
+          <img src = {product.img} alt=""/>
+          <h3>{product.heading}</h3>
+          <p>{product.mrpPrice}</p>
+          <p>{product.actualPrice}</p>
+          <p>{product.offer}</p>
         </div>
       ))}
     </div>
@@ -35,4 +36,4 @@ const  ShopByCate = () =>{
     
 }
 
-export default  ShopByCate;
+export default  NewLanches;

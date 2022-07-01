@@ -1,9 +1,8 @@
 import React from "react";
-import "./components/Homepage/Landing_page/navbar.css";
-import { useState, useEffect } from "react";
 
 
-const  OffersJustForYou = (sliderData) =>{
+
+const  OffersJustForYou = () =>{
    const [data, setData] = React.useState ([])
   
 
@@ -24,7 +23,7 @@ const  OffersJustForYou = (sliderData) =>{
          <div style = {{display:"flex"}}>
       {data.map((product) => (
         <div  style = {{display:"flex"}}>
-          <img src = {product.img} alt="Image" style = {{height:"80px", width:"80px"}}/>
+          <img src = {product.img} alt="" style = {{height:"80px", width:"80px"}}/>
           <p>{product.pTag}</p>
         </div>
       ))}

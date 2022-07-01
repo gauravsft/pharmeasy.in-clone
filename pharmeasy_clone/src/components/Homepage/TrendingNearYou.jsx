@@ -2,7 +2,7 @@ import React from "react";
 
 
 
-const  TrendingNearYou = (sliderData) =>{
+const  TrendingNearYou = () =>{
    const [data, setData] = React.useState ([])
   
 
@@ -23,7 +23,7 @@ const  TrendingNearYou = (sliderData) =>{
          <div style = {{display:"flex"}}>
       {data.map((product) => (
         <div >
-          <img src = {product.img} alt="Image"/>
+          <img src = {product.img} alt=""/>
           <h3>{product.heading}</h3>
           <p>{product.mrpTag}</p>
           <p>{product.mrpPrice}</p>

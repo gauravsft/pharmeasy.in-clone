@@ -1,5 +1,4 @@
 import React from "react"
-import 'material-icons/iconfont/material-icons.css';
 import styled from "styled-components";
 import "./css Components/navbar.css"
 

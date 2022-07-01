@@ -1,6 +1,5 @@
 import React from "react";
-import "./Homepage/Landing_page/navbar.css"
-import 'react-multi-carousel/lib/styles.css';
+
 
 
 
@@ -29,7 +28,7 @@ const  ShopByConcern = () =>{
         
       {data.map((product) => (
         <div >
-          <img src = {product.img} alt="Image"/>
+          <img src = {product.img} alt=""/>
           <h3>{product.heading}</h3>
         </div>
       ))}
