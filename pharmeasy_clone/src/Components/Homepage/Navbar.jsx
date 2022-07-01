@@ -1,6 +1,6 @@
 import React from "react";
 import  ReactDOM  from "react-dom";
-import "./CSS_Components/home.css"
+import "./CSS_Components/navbar.css"
 
 
 import { BiUser} from 'react-icons/bi';
@@ -8,7 +8,8 @@ import {TbDiscount2 } from 'react-icons/tb';
 import {AiOutlineMobile } from 'react-icons/ai';
 import { BsCart2} from 'react-icons/bs';
 import { BiChevronDown} from 'react-icons/bi';
-import {HiOutlineClipboardList } from 'react-icons/hi';
+
+
 
 
 
@@ -42,19 +43,7 @@ const Navbar= ()=> {
        </div>
 
       </div>  
-      <div className="below_navbar">
-        <div className="below_navbar_headingdiv">
-            <div> <h2>What are you looking for?</h2> </div>
-            <div style={{display:"flex"}}> 
-                <div style={{display:"flex",alignItems:"center"}}><HiOutlineClipboardList/><p>Order with prescription.</p></div>
-               <div style={{display:"flex",alignItems:"center"}}><p style={{color:"#10847E",fontFamily:"sans-serif",fontSize:"14px",fontWeight:"600",lineHeight:"24px"}}>UPLOAD NOW </p></div> 
-            </div>
-        </div>
-        <div >
-            <input type="text" />
-            <button>Search</button>
-        </div>
-      </div>
+     
       </>
     );
 }
