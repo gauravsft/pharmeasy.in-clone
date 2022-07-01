@@ -1,0 +1,15 @@
+.box{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 450px;
+}
+.box>div{
+     padding: 30px 80px;
+    background-color: white;
+    color: #4f585e;
+    border: 1px solid #cecece;
+    border-radius: 20px;
+}
