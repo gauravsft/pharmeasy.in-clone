@@ -41,6 +41,12 @@
             "ptag":"JOIN NOW"
         }
     ],
+
+
+
+
+
+
     "shopByCategory":[
         {
             "img":"https://cdn01.pharmeasy.in/dam/discovery/categoryImages/6d462f424a43372ea8b7b6f8ca13e052.png?f=png?dim=360x0",
@@ -107,6 +113,12 @@
             "head":"Surgicals and Dressings"
         }
     ],
+
+
+
+
+
+
     "labTestByHealthConcern":[
         {
         "img":"https://cms-contents.pharmeasy.in/homepage_top_categories_images/1b95d43988f-Vitamins-compressed.jpg?dim=360x0",
@@ -171,6 +183,14 @@
                                   
                 
     ],
+
+
+
+
+
+
+
+
     "newLanches":[
         {
             "img":"https://cdn01.pharmeasy.in/dam/products_otc/L52684/yardley-london-english-blossom-anti-perspirant-deodorant-roll-on-for-women-50-ml-2-1641793651.jpg?dim=1440x0",
@@ -262,6 +282,15 @@
             "offer":"0% OFF"
         }
     ],
+
+
+
+
+
+
+
+
+
     "frequentlyBookedLabtests":[
         {
             "img":"https://s3.ap-south-1.amazonaws.com/pe-neon-public/diagnostics/production/recommendationWidget/9fc5a0ab225a3ca2bc1702149e07f311.png?dim=256x0",
@@ -296,6 +325,15 @@
             "offer":"71% OFF"
         }
     ],
+
+
+
+
+
+
+
+
+
     "shopByCencern":[
         {
         "img":"https://cms-contents.pharmeasy.in/homepage_top_categories_images/923a665cc6f-Skin_care.png?dim=256x0",
@@ -326,6 +364,14 @@
                                 "heading":"Lifestyle Disorders"
                                 } 
     ],
+
+
+
+
+
+
+
+
     "trendingNearYou":[
         {
             "img":"https://cdn01.pharmeasy.in/dam/products_otc/I32680/accu-chek-instant-glucometer-test-strips-box-of-50-1-1654166925.jpg?dim=320x320&dpr=1&q=100",
@@ -432,6 +478,18 @@
             "offer":"% OFF"
         }
     ],
+
+
+
+
+
+
+
+
+
+
+
+
     "offersJustForYou":[
         {
             "img":"https://cms-contents.pharmeasy.in/offer/8d3081d6715-HSD_Logo.jpg?dim=1440x0",
@@ -485,5 +543,206 @@
             "img":"",
             "pTag":""
         }
-    ]
+    ],
+
+
+
+
+
+  "immunityBoosters":[
+    {
+            "img":"https://cdn01.pharmeasy.in/dam/products_otc/J17013/ourdaily-biotin-60-tablets-2-1646137808.jpg?dim=1440x0",
+            "heading":"Ourdaily Biotin 60 Tablets",
+            "mrpTag":"MRP",
+            "mrpPrice":"₹499",
+            "actualPrice":"₹249.25",
+            "offer":"50% OFF"
+    },
+    {
+        "img":"https://cdn01.pharmeasy.in/dam/products_otc/T60720/pharmeasy-multivitamin-multimineral-pack-of-60-2-1656417595.jpg?dim=1440x0",
+        "heading":"Pharmeasy Multivitamin Multimineral - Immunity Booster - Complete...",
+        "mrpTag":"MRP",
+        "mrpPrice":"₹699",
+        "actualPrice":"₹419.40",
+        "offer":"40% OFF"
+},
+{
+    "img":"https://cdn01.pharmeasy.in/dam/products_otc/Z50806/man-matters-nourish-skin-gummies-60n-2-1645016886.jpg?dim=1440x0",
+    "heading":"Man Matters Nourish Skin Gummies 60n",
+    "mrpTag":"MRP",
+    "mrpPrice":"₹898",
+    "actualPrice":"₹898",
+    "offer":"0% OFF"
+},
+{
+    "img":"https://cdn01.pharmeasy.in/dam/products_otc/281751/revital-h-men-multivitamin-with-calcium-zinc-ginseng-for-immunity-strong-bones-energy-60-capsules-2-1654077644.jpg?dim=1440x0",
+    "heading":"Revital H Men Multivitamin With Calcium, Zinc &...",
+    "mrpTag":"MRP",
+    "mrpPrice":"₹550",
+    "actualPrice":"₹552.25",
+    "offer":"5% OFF"
+},
+{
+    "img":"https://cdn01.pharmeasy.in/dam/products_otc/Z20517/kiddoze-calcium-vitamin-d3-gummies-promotes-bone-health-and-growth-builds-immunity-60-pieces-2-1646645754.jpg?dim=1440x0",
+    "heading":"Kiddoze Calcium & Vitamin D3 Gummies | Promotes Bone Health And Growth...",
+    "mrpTag":"MRP",
+    "mrpPrice":"₹927",
+    "actualPrice":"₹787.95",
+    "offer":"15% OFF"
+},
+{
+    "img":"https://cdn01.pharmeasy.in/dam/products_otc/W62580/baidyanath-shankh-pushpi-sharbat-220-ml-with-free-sharbat-110-ml-2-1654249618.jpg?dim=1440x0",
+    "heading":"Baidyanath Shankh Pushpi Sharbat - 220 Ml...",
+    "mrpTag":"MRP",
+    "mrpPrice":"₹120",
+    "actualPrice":"₹84",
+    "offer":"30% OFF"
+}
+  ],
+
+
+
+
+
+
+  "featuredBrands":[
+        {
+            "img":"https://cms-contents.pharmeasy.in/carousel_item/41f3ca6230d-Complan-min.png?dim=1440x0",
+            "pTag":"Complan"
+        },
+        {
+            "img":"https://cms-contents.pharmeasy.in/carousel_item/3eb4eb6bfbe-App_Himalaya.jpg?dim=1440x0",
+            "pTag":"Himalaya"
+        },
+        {
+            "img":"https://cms-contents.pharmeasy.in/carousel_item/1151b7d7c0e-LivEasy-min.png?dim=1440x0",
+            "pTag":"LivEasy"
+        },
+        {
+            "img":"https://cms-contents.pharmeasy.in/carousel_item/d6726e69b22-04.jpg?dim=1440x0",
+            "pTag":"Wellbeing Nutrition"
+        },
+        {
+            "img":"https://cms-contents.pharmeasy.in/carousel_item/c9fc0cd6ef6-Revital-min.png?dim=1440x0",
+            "pTag":"ReVital"
+        },
+        {
+            "img":"https://cms-contents.pharmeasy.in/carousel_item/e8a5cabe9f3-Volini-min.png?dim=1440x0",
+            "pTag":"Volini"
+        },
+          {
+            "img":"https://cms-contents.pharmeasy.in/carousel_item/2318a0e5326-App_Abzorb.jpg?dim=1440x0",
+            "pTag":"Abzorb"
+        },
+        {
+            "img":"https://cms-contents.pharmeasy.in/carousel_item/2f3e832e341-Everherb-min.png?dim=1440x0",
+            "pTag":"EverHerb"
+        },
+        {
+            "img":"https://cms-contents.pharmeasy.in/carousel_item/40facc7fa28-Pharmeasy-App.jpg?dim=1440x0",
+            "pTag":"PharmEasy"
+        }  
+  ],
+
+"dealsOfTheDay":[
+    {
+        "img":"https://cdn01.pharmeasy.in/dam/products_otc/I32680/accu-chek-instant-glucometer-test-strips-box-of-50-1-1654166925.jpg?dim=1440x0",
+            "heading":"Accu-chek Instant Glucometer Test Strips...",
+            "mrpTag":"MRP",
+            "mrpPrice":"₹975",
+            "actualPrice":"₹926.25",
+            "offer":"5% OFF" 
+    },
+    {
+        "img":"https://cdn01.pharmeasy.in/dam/products_otc/L79986/everherb-karela-jamun-juice-helps-maintains-healthy-sugar-levels-helps-in-weight-management-1l-2-1654234653.jpg?dim=1440x0",
+            "heading":"Everherb Karela Jamun Juice - Helps...",
+            "mrpTag":"MRP",
+            "mrpPrice":"₹399",
+            "actualPrice":"₹207.48",
+            "offer":"48% OFF" 
+    },
+    {
+        "img":"https://cdn01.pharmeasy.in/dam/products_otc/I06487/dr-morepen-bg-03-glucometer-test-strips-box-of-25-1-1654168049.jpg?dim=1440x0",
+            "heading":"Dr Morepen Bg 03 Glucometer Test Strips",
+            "mrpTag":"MRP",
+            "mrpPrice":"₹1490",
+            "actualPrice":"₹327",
+            "offer":"78% OFF" 
+    },
+    {
+        "img":"https://cdn01.pharmeasy.in/dam/products_otc/266249/depura-60000-iu-vitamin-d3-oral-solution-helps-bones-healthy-aids-in-boosting-immunity-sugarfree-2-1654077895.jpg?dim=1440x0",
+            "heading":"Depura, 60000 Iu Vitamin D3 Oral...",
+            "mrpTag":"MRP",
+            "mrpPrice":"₹975",
+            "actualPrice":"₹926.25",
+            "offer":"5% OFF" 
+    },
+    {
+        "img":"https://cdn01.pharmeasy.in/dam/products_otc/B39499/pharmeasy-hot-water-bag-blue-2-1656420198.jpg?dim=1440x0",
+            "heading":"Pharmeasy Hot Water Bag - Relieves Pain -",
+            "mrpTag":"MRP",
+            "mrpPrice":"₹975",
+            "actualPrice":"₹926.25",
+            "offer":"5% OFF" 
+    },
+    {
+        "img":"https://cdn01.pharmeasy.in/dam/products_otc/207833/calcimax-forte-plus-strip-of-30-tablets-2-1654078168.jpg?dim=1440x0",
+            "heading":"Calcimax Forte Plus Strip Of 30 Tablets",
+            "mrpTag":"MRP",
+            "mrpPrice":"₹975",
+            "actualPrice":"₹926.25",
+            "offer":"5% OFF" 
+    },
+    {
+        "img":"https://cdn01.pharmeasy.in/dam/products_otc/W00450/liveasy-essentials-copper-bottle-ayurvedic-health-benefits-leak-proof-cap-950ml-1-1641793079.jpg?dim=1440x0",
+            "heading":"Liveasy Essentials Copper Bottle -",
+            "mrpTag":"MRP",
+            "mrpPrice":"₹975",
+            "actualPrice":"₹926.25",
+            "offer":"5% OFF" 
+    },
+    {
+        "img":"https://cdn01.pharmeasy.in/dam/products_otc/000591/abzorb-anti-fungal-dusting-powder-100gm-2-1649918231.jpg?dim=1440x0",
+            "heading":"Abzorb Antifungal Dusting Powder 100gm",
+            "mrpTag":"MRP",
+            "mrpPrice":"₹975",
+            "actualPrice":"₹926.25",
+            "offer":"5% OFF" 
+    },
+    {
+        "img":"https://cdn01.pharmeasy.in/dam/products_otc/181135/vicks-vaporub-25ml-relief-from-cold-cough-headache-and-body-pain-2-1654078746.jpg?dim=1440x0",
+            "heading":"Vicks Vaporub 25ml, Relief From Cold,",
+            "mrpTag":"MRP",
+            "mrpPrice":"₹975",
+            "actualPrice":"₹926.25",
+            "offer":"5% OFF" 
+    },
+    {
+        "img":"https://cdn01.pharmeasy.in/dam/products_otc/I40164/durex-extra-dots-packet-of-10-condoms-3-1654166124.jpg?dim=1440x0",
+            "heading":"Durex Extra Dots Packet Of 10 Condoms",
+            "mrpTag":"MRP",
+            "mrpPrice":"₹975",
+            "actualPrice":"₹926.25",
+            "offer":"5% OFF" 
+    },
+    {
+        "img":"https://cdn01.pharmeasy.in/dam/products_otc/270382/scalpe-plus-anti-dandruff-shampoo-bottle-of-75-ml-2-1654518458.jpg?dim=1440x0",
+            "heading":"Scalpe Plus Anti Dandruff Shampoo",
+            "mrpTag":"MRP",
+            "mrpPrice":"₹975",
+            "actualPrice":"₹926.25",
+            "offer":"5% OFF" 
+    },
+    {
+        "img":"https://cdn01.pharmeasy.in/dam/products_otc/O70942/coviself-covid-self-test-kit-2-1644415093.jpg?dim=1440x0",
+            "heading":"Coviself Covid Self Test Kit",
+            "mrpTag":"MRP",
+            "mrpPrice":"₹975",
+            "actualPrice":"₹926.25",
+            "offer":"5% OFF" 
+    }
+]
+
+
+
 }

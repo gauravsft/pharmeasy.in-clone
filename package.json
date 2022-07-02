@@ -1,8 +1,12 @@
 {
   "dependencies": {
+    "pure-react-carousel": "^1.28.1",
     "react": "^16.14.0",
+    "react-carousel-slider": "^2.0.13",
     "react-dom": "^16.14.0",
     "react-icons": "^4.4.0",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.5"
   }
 }

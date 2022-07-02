@@ -26,14 +26,13 @@ const LabTestByHealthConcern = () => {
 
     return (
   
-      <div style={{display:"flex" }} >
+      <div style={{display:"flex",gap:"20px"}} >
            {
       data.map((product)=> (
       
       <div >
-        <img src={product.img} alt="" />
-        <h3>{product.head}</h3>
-        <p>{product.pTag}</p>
+        <img  style={{height:"150px", width:"150px",borderRadius:"10px"}} src={product.img} alt="" />
+        
 
       </div>
       )) } 
