@@ -194,7 +194,7 @@
     "newLanches":[
         {
             "img":"https://cdn01.pharmeasy.in/dam/products_otc/L52684/yardley-london-english-blossom-anti-perspirant-deodorant-roll-on-for-women-50-ml-2-1641793651.jpg?dim=1440x0",
-            "heading":"Yardley London English Blossom Anti Perspirant Deodorant Roll On For Women - 50 Ml",
+            "heading":"Yardley London English Blossom Anti...",
             "mrpTag":"MRP",
             "mrpPrice":"₹199",
             "actualPrice":"₹167.16",
@@ -202,7 +202,7 @@
         },
         {
             "img":"https://cdn01.pharmeasy.in/dam/products_otc/F65714/pharmeasy-posture-corrector-medium-2-1656420784.jpg?dim=1440x0",
-            "heading":"Pharmeasy Posture Corrector - Corrects Bad Posture - Eases Neck, Back & Shoulder Pain - Medium",
+            "heading":"Pharmeasy Posture Corrector - Corrects Bad...",
             "mrpTag":"MRP",
             "mrpPrice":"₹999",
             "actualPrice":"₹499.50",
@@ -219,7 +219,7 @@
         },
         {
             "img":"https://cdn01.pharmeasy.in/dam/products_otc/B36597/canesten-antifungal-dusting-powder-50g-2-1650970284.jpg?dim=1440x0",
-            "heading":"Canesten Antifungal Dusting Powder 50g",
+            "heading":"Canesten Antifungal Dusting Pow...",
             "mrpTag":"MRP",
             "mrpPrice":"₹73",
             "actualPrice":"₹58.40",
@@ -251,7 +251,7 @@
         },
         {
             "img":"https://cdn01.pharmeasy.in/dam/products_otc/G99977/sanfe-selfly-nail-buffer-1-piece-4-way-buffer-buffs-shines-the-nails-2-1643017118.jpg?dim=1440x0",
-            "heading":"Sanfe Selfly Nail Buffer | 1 Piece | 4 Way Buffer | Buffs & Shines The Nails",
+            "heading":"Sanfe Selfly Nail Buffer | 1 Piece | 4 Way...",
             "mrpTag":"MRP",
             "mrpPrice":"₹129",
             "actualPrice":"₹129",
@@ -345,7 +345,7 @@
             },
             {
                 "img":"https://cms-contents.pharmeasy.in/homepage_top_categories_images/0af9ac9f350-Diabetes.webp?dim=256x0",
-                "heading":"Diabetes Care & Sugur Substitute"
+                "heading":"Diabetes Care & Sugar..."
                 },
                 {
                     "img":"https://cms-contents.pharmeasy.in/homepage_top_categories_images/24a0d2c733e-Heart.webp?dim=256x0",
@@ -382,8 +382,8 @@
             "offer":"5% OFF"
         },
         {
-            "img":"https://cdn01.pharmeasy.in/dam/products_otc/I32680/accu-chek-instant-glucometer-test-strips-box-of-50-1-1654166925.jpg?dim=1440x0",
-            "heading":"Everherb Karela Jamun Juice - Helps Maintains Healthy Sugar Levels -Helps In Weight Management - 1l",
+            "img":"https://cdn01.pharmeasy.in/dam/products_otc/266249/depura-60000-iu-vitamin-d3-oral-solution-helps-bones-healthy-aids-in-boosting-immunity-sugarfree-2-1654077895.jpg?dim=1440x0",
+            "heading":"Everherb Karela Jamun Juice - Helps Maintains...",
             "mrpTag":"MRP",
             "mrpPrice":"₹300",
             "actualPrice":"₹207.48",
@@ -391,91 +391,75 @@
         },
         {
             "img":"https://cdn01.pharmeasy.in/dam/products_otc/I06487/dr-morepen-bg-03-glucometer-test-strips-box-of-25-1-1654168049.jpg?dim=1440x0",
-            "heading":"Dr Morepen Bg 03 Glucometer Test Strips Box Of 25",
+            "heading":"Depura, 60000 Iu Vitamin D3 Oral",
             "mrpTag":"MRP",
             "mrpPrice":"₹1490",
             "actualPrice":"₹998.3",
             "offer":"33% OFF"
         },
         {
-            "img":"",
-            "heading":"",
+            "img":"https://cdn01.pharmeasy.in/dam/products_otc/B39499/pharmeasy-hot-water-bag-blue-2-1656420198.jpg?dim=1440x0",
+            "heading":"Pharmeasy Hot Water Bag - Relieves Pain...",
             "mrpTag":"MRP",
-            "mrpPrice":"₹299",
-            "actualPrice":"₹299",
-            "offer":"% OFF"
+            "mrpPrice":"₹399",
+            "actualPrice":"₹269",
+            "offer":"40% OFF"
         },
         {
-            "img":"",
-            "heading":"",
+            "img":"https://cdn01.pharmeasy.in/dam/products_otc/W00450/liveasy-essentials-copper-bottle-ayurvedic-health-benefits-leak-proof-cap-950ml-1-1641793079.jpg?dim=1440x0",
+            "heading":"Liveasy Essentials Copper Bottle -..",
             "mrpTag":"MRP",
             "mrpPrice":"₹299",
             "actualPrice":"₹299",
-            "offer":"% OFF"
+            "offer":"0% OFF"
         },
         {
-            "img":"",
-            "heading":"",
+            "img":"https://cdn01.pharmeasy.in/dam/products_otc/000591/abzorb-anti-fungal-dusting-powder-100gm-2-1649918231.jpg?dim=1440x0",
+            "heading":"Abzorb Antifungal Dusting Powder 100gm",
             "mrpTag":"MRP",
-            "mrpPrice":"₹299",
-            "actualPrice":"₹299",
-            "offer":"% OFF"
+            "mrpPrice":"₹432",
+            "actualPrice":"₹398",
+            "offer":"20% OFF"
         },
         {
-            "img":"",
-            "heading":"",
+            "img":"https://cdn01.pharmeasy.in/dam/products_otc/021870/b-d-ultra-fine-iii-nano-pen-needles-4mm-32g-15-1-1641399042.jpg?dim=1440x0",
+            "heading":"BD Ultra-Fine III Nano Pen Needles 4mm 32G",
             "mrpTag":"MRP",
-            "mrpPrice":"₹299",
-            "actualPrice":"₹299",
-            "offer":"% OFF"
+            "mrpPrice":"₹899",
+            "actualPrice":"₹448",
+            "offer":"65% OFF"
         },
         {
-            "img":"",
-            "heading":"",
+            "img":"https://cdn01.pharmeasy.in/dam/products_otc/W09573/whisper-bindazzz-nights-xl-plus-27-pads-with-3-free-pads-2-1632781293.jpg?dim=1440x0",
+            "heading":"Whisper Bindazzz Nights Xl Plus - 27",
             "mrpTag":"MRP",
-            "mrpPrice":"₹299",
-            "actualPrice":"₹299",
-            "offer":"% OFF"
+            "mrpPrice":"₹799",
+            "actualPrice":"₹589",
+            "offer":"25% OFF"
         },
         {
-            "img":"",
-            "heading":"",
+            "img":"https://cdn01.pharmeasy.in/dam/products_otc/207833/calcimax-forte-plus-strip-of-30-tablets-2-1654078168.jpg?dim=1440x0",
+            "heading":"Pharmeasy Vitamin D3 - Supports Bone",
             "mrpTag":"MRP",
-            "mrpPrice":"₹299",
+            "mrpPrice":"₹499",
             "actualPrice":"₹299",
-            "offer":"% OFF"
+            "offer":"48% OFF"
         },
         {
-            "img":"",
-            "heading":"",
+            "img":"https://cdn01.pharmeasy.in/dam/products_otc/Y04732/himalaya-herbals-babycare-gift-jar-soap-shampoo-rash-cream-and-powder-2-1649766119.jpg?dim=1440x0",
+            "heading":"Himalaya Herbals Babycare Gift Jar (soap, Shampoo , Ra...",
             "mrpTag":"MRP",
-            "mrpPrice":"₹299",
-            "actualPrice":"₹299",
-            "offer":"% OFF"
+            "mrpPrice":"₹599",
+            "actualPrice":"₹483",
+            "offer":"4% OFF"
         },
         {
-            "img":"",
-            "heading":"",
+            "img":"https://cdn01.pharmeasy.in/dam/products_otc/270551/revital-h-men-multivitamin-with-zinc-ginseng-for-immunity-strong-bones-energy-10-capsules-1-1654078581.jpg?dim=1440x0",
+            "heading":"Gatsby Hair Styling Wax Power & Spikes",
             "mrpTag":"MRP",
             "mrpPrice":"₹299",
-            "actualPrice":"₹299",
-            "offer":"% OFF"
-        },
-        {
-            "img":"",
-            "heading":"",
-            "mrpTag":"MRP",
-            "mrpPrice":"₹299",
-            "actualPrice":"₹299",
-            "offer":"% OFF"
-        },
-        {
-            "img":"",
-            "heading":"",
-            "mrpTag":"MRP",
-            "mrpPrice":"₹299",
-            "actualPrice":"₹299",
-            "offer":"% OFF"
+            "actualPrice":"₹278",
+            "offer":"18% OFF"
         }
     ],
 
@@ -643,6 +627,7 @@
             "pTag":"PharmEasy"
         }  
   ],
+
 
 "dealsOfTheDay":[
     {

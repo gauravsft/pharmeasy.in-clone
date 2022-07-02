@@ -28,19 +28,23 @@ const ImmunityBoosters= () => {
 
     return (
   
-      <div style={{display:"grid",gap:"20px",gridTemplateColumns:"repeat(3, 1fr)" }} >
+      <div style={{display:"grid",gap:"30px",gridTemplateColumns:"repeat(3, 1fr)",width:"98%",margin:"auto",marginLeft:"30px"}} >
            {
       data.map((product)=> (
       
       <div className="immunityBooster_card">
-          <img style={{width:"80px", height:"80px"}} src={product.img} alt="" />
-          <div ><h3>{product.heading}</h3> 
-         <p>{product.pTag}</p>
-         <p>{product.mrpPrice}</p>
-            <div  style={{display:"flex",justifyContent:"space-between"}}>
-            <p>{product.actualPrice}</p>
-            <p style={{color:"#F47779" }}>{product.offer}</p></div>
-         </div>  
+          <img style={{width:"130px", height:"130px",padding:"10px",}} src={product.img} alt="" />
+          <div >
+          <h4 style={{fontFamily:"sans-serif",color:"black", letterSpacing:"0.6px"}}>{product.heading}</h4> 
+          <div style={{display:"flex",gap:"5px",marginTop:"-30px"}}>
+          <h4 style={{fontFamily:"sans-serif",color:"#6c6e6f",textDecoration:"line-through"}}>{product.mrpTag}</h4>
+          <h4  style={{fontFamily:"sans-serif",color:"#6c6e6f",textDecoration:"line-through"}}>{product.mrpPrice}</h4>
+         </div>
+         <div  style={{display:"flex",justifyContent:"space-between",marginTop:"-36px"}}>
+         <h4  style={{fontFamily:"sans-serif",color:"black"}}>{product.actualPrice}</h4>
+         <h4 style={{color:"#F47779",fontFamily:"sans-serif" }}>{product.offer}</h4>   
+    </div>
+     </div>
       </div>
       )) } 
       </div>

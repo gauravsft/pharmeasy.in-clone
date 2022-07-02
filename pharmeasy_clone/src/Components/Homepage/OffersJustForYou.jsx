@@ -40,25 +40,25 @@ const OffersJustForYou = () => {
     return (<>
      <CarouselProvider
                 naturalSlideWidth={100}
-                naturalSlideHeight={125}
+                naturalSlideHeight={200}
                 totalSlides={data.length}
-                visibleSlides={7}
+                visibleSlides={2}
               >
                 <div  > 
                  <Slider >
-  
-      <div style={{display:"flex",gap:"20px" }} >
+                 <div style={{display:"flex" , height:"200px",width:"auto"}} >
+    
            {
       data.map((product)=> (
-        <Slide style={{width:"500px",height:"100%"}}>
+        <Slide style={{width:"350px"}}>
       <div className="offersJustForYou_card">
-        <img style={{height:"50px", width:"50px",borderRadius:"8px",padding:"10px"}} src={product.img} alt="" />
-        <p style={{height:"50px",padding:"10px"}}>{product.pTag}</p>
+        <img style={{height:"50px", width:"50px",borderRadius:"10px",padding:"10px"}} src={product.img} alt="" />
+        <p style={{width:"200px",padding:"10px"}}>{product.pTag}</p>
 
       </div>
             </Slide>
       )) } 
-      </div>
+    </div>
       </Slider>
       <div style={{display:"flex" ,justifyContent:"space-between",border:"none",backgroundColor:"none",marginTop:"-125px"}}>
         <ButtonBack className="sliderdata_slider_button" ><MdArrowBackIos/> </ButtonBack>

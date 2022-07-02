@@ -53,6 +53,7 @@ font-family: sans-serif;
     letter-spacing: 0.4px;
     padding:10px;
     border-radius: 15px;
+    text-align: center;
 }
 .silderData:hover{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
@@ -79,8 +80,8 @@ margin-left: 50px;
 
 .offersJustForYou_card{
     display: flex;
-    width: 500px;
-    height:120px;
+    width: 80%;
+    height:60px;
     align-items: center;
     padding:10px;
     font-size: 14px;
@@ -89,29 +90,56 @@ margin-left: 50px;
     letter-spacing: 0.4px;
    color: #30363C;
    font-family: sans-serif;
+   border-radius: 10px;
+   margin-bottom: 20px;
+
+
 }
 
 /*shopByCencern*/
 .shopByCencern_card{
-width:300px;
-height:200px;
+width:130px;
+height: 250px;
+margin: auto;
+font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+   color: #30363C;
+   font-family: sans-serif;
 
 }
 /*frequentlyBookedLabtests*/
 .frequentlyBookedLabtests_card{
-background-color: rgb(215, 215, 254);
+background-color: rgb(215, 215, 220);
 border-radius: 8px;
-padding:5px;
-width:500px;
+padding:10px;
+width:480px;
+height:auto;
 }
 /*newLaunched_card*/
 .newLaunched_card{
-width:500px;
+    padding:15px;
+    border-radius: 10px;
+width:180px;
+margin: auto;
+border: 1px solid rgb(215, 223, 229);
+
 }
 /*immunityBooster*/
 .immunityBooster_card{
 display:flex;
-width:auto;
+width:80%;
+align-items: center;
+margin: auto;
+padding:10px;
+border: 1px solid rgb(215, 223, 229);
+border-radius: 20px;
+
+}
+.immunityBooster_card:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
 }
 
 
@@ -127,3 +155,30 @@ gap:30px;
 height:200px;
 width:250px;
 }
+.offersJustForYou_card:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+}
+
+.shopByate_card{
+    height:350;
+    padding:10px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+   color: #30363C;
+   font-family: sans-serif;
+   border-radius: 10px;
+   margin-bottom: 20px;
+   border: 1px solid rgb(215, 223, 229);
+   border-radius: 10px;
+   align-items: center;
+
+}
+
+.newLaunched_card:hover{
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.shpByate_card:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+    

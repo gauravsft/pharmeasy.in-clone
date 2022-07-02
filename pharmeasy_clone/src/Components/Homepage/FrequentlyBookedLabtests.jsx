@@ -29,19 +29,21 @@ const FrequentlyBookedLabtests = () => {
 
     return (
   
-      <div style={{display:"flex",gap:"20px" }} >
+      <div style={{display:"flex",gap:"20px",width:"98%",margin:"auto" }} >
            {
       data.map((product)=> (
       
       <div className="frequentlyBookedLabtests_card">
-        <p>{product.offer}</p>
-         <h3>{product.heading}</h3> 
-         <p>{product.ptag}</p>
+        <div style={{width:"80px",height:"30px",borderRadius:"4px", backgroundColor:"#F47779",color:"white",textAlign:"center"}}>
+        <p style={{marginBottom:"-10px",fontFamily:"sans-serif",lineHeight:"16px",fontWeight:"500",verticalAlign:"center"}}>{product.offer}</p>
+         </div>
+         <h3 style={{fontFamily:"sans-serif",color:"black", letterSpacing:"0.6px"}}>{product.heading}</h3> 
+         <p style={{fontFamily:"sans-serif",color:"#30363C",fontSize:"16px"}}>{product.ptag}</p>
          
             <div  style={{display:"flex",justifyContent:"space-between"}}>
              <div>
-        <p>{product.mrpPrice}</p>
-         <p>{product.actualPrice}</p>
+        <h3  style={{fontFamily:"sans-serif",color:"#6c6e6f",textDecoration:"line-through"}}>{product.mrpPrice}</h3>
+         <h3  style={{fontFamily:"sans-serif",color:"black"}}>{product.actualPrice}</h3>
          </div>  
           <img style={{width:"80px", height:"80px"}} src={product.img} alt="" />
 

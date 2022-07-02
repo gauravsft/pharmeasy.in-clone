@@ -26,13 +26,13 @@ const ShopByCencern = () => {
 
     return (
   
-      <div style={{display:"flex",gap:"20px" }} >
+      <div style={{display:"grid",gap:"20px",gridTemplateColumns:"repeat(7, 1fr)",width:"98%",margin:"auto" }} >
            {
       data.map((product)=> (
       
       <div className="shopByCencern_card">
-        <img style={{height:"100px", width:"100px"}} src={product.img} alt="" />
-        <h3 style={{fontFamily:"sans-serif",lineHeight:"24px",color:"#30363C"}}>{product.heading}</h3>
+        <img style={{height:"130px", width:"130px",margin:"auto"}} src={product.img} alt="" />
+        <h3 s>{product.heading}</h3>
    
 
       </div>
