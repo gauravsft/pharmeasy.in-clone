@@ -41,15 +41,7 @@ const Home= ()=> {
         <h2 style={{fontFamily:"sans-serif"}}>Shop By Category</h2>
       </div>
  <ShopByCategory />
-      <div style={{
-        width:"95%",
-        margin:"auto",
-        marginTop:"30px"
-      }}>
-        <h2 style={{fontFamily:"sans-serif"}}>Lab Tests By Health Concern</h2>
-      </div>
-
-   <LabTestByHealthConcern />
+  
     <div style={{
         width:"95%",
         margin:"auto",
@@ -103,8 +95,8 @@ const Home= ()=> {
        }}>
         <h2 style={{fontFamily:"sans-serif"}}>Immunity Boosters</h2>
         <p style={{color:"#10847E",fontFamily:"sans-serif",fontSize:"16px",fontWeight:"600",lineHeight:"24px",cursor:"pointer"}}>View All</p>
-         </div>
-         <p style={{fontFamily:"sans-serif",fontSize:"16px",fontWeight:"500",lineHeight:"24px",color:"#30363C"}}>Super charge your immunity with us</p>
+         </div> 
+         <p style={{fontFamily:"sans-serif",fontSize:"16px",fontWeight:"500",lineHeight:"24px",color:"#30363C",marginTop:"-15px"}}>Super charge your immunity with us</p>
    </div>
    <ImmunityBoosters/>
   
