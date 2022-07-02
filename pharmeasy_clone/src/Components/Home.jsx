@@ -14,6 +14,7 @@ import TrendingNearYou  from "./Homepage/TrendingNearYou"
 import ImmunityBoosters from "./Homepage/ImmunityBoosters"
 import Slidereg from "./Homepage/Slidereg"
 import PaytmOffer from "./Homepage/PaytmOffer";
+import Footer  from "./Homepage/Footer";
 
 
 const Home= ()=> {
@@ -100,7 +101,7 @@ const Home= ()=> {
    </div>
    <ImmunityBoosters/>
   
-
+<Footer/>
 
       </>
     );
