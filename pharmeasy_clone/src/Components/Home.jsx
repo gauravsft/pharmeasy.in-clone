@@ -34,7 +34,7 @@ const Home= ()=> {
       </div>
       <OffersJustForYou/>
       <div style={{
-        width:"95%",
+        width:"97%",
         margin:"auto",
         marginTop:"30px"
       }}>
@@ -66,7 +66,11 @@ const Home= ()=> {
         <p style={{color:"#10847E",fontFamily:"sans-serif",fontSize:"18px",fontWeight:"700",lineHeight:"24px",cursor:"pointer"}}>View All</p>
          </div>
          <FrequentlyBookedLabtests/>
-         <div>
+         <div style={{
+        width:"92.5%",
+        margin:"auto",
+        marginTop:"60px"
+      }}>
         <h2 style={{fontFamily:"sans-serif"}}>New Launches</h2>
         <p style={{fontFamily:"sans-serif",fontSize:"16px",fontWeight:"500",lineHeight:"24px",color:"#30363C"}}>New wellness range just for you!</p>
       </div>
@@ -81,7 +85,7 @@ const Home= ()=> {
 
     <PaytmOffer/>
       <div style={{
-        width:"95%",
+        width:"92.6%",
         margin:"auto",
         marginTop:"30px"
       }}>

@@ -28,7 +28,7 @@ const ImmunityBoosters= () => {
 
     return (
   
-      <div style={{display:"grid",gap:"30px",gridTemplateColumns:"repeat(3, 1fr)",width:"98%",margin:"auto",marginLeft:"30px"}} >
+      <div style={{display:"grid",gap:"30px",gridTemplateColumns:"repeat(3, 1fr)",width:"98%",margin:"auto",marginLeft:"5px"}} >
            {
       data.map((product)=> (
       

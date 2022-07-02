@@ -70,8 +70,8 @@ const TrendingNearYou = () => {
       </div>
       </Slider>
       <div style={{display:"flex" ,justifyContent:"space-between",border:"none",backgroundColor:"none",marginTop:"-125px"}}>
-        <ButtonBack className="sliderdata_slider_button" ><MdArrowBackIos/> </ButtonBack>
-        <ButtonNext className="sliderdata_slider_button" ><MdArrowForwardIos/> </ButtonNext>
+        <ButtonBack className="sliderdata_slider_button" > </ButtonBack>
+        <ButtonNext className="sliderdata_slider_button" > </ButtonNext>
         </div>
       </div>
       </CarouselProvider>

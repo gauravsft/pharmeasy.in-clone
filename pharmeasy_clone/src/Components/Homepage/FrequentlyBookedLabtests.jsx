@@ -29,12 +29,12 @@ const FrequentlyBookedLabtests = () => {
 
     return (
   
-      <div style={{display:"flex",gap:"20px",width:"98%",margin:"auto" }} >
+      <div style={{display:"flex",gap:"20px",width:"95%",margin:"auto" }} >
            {
       data.map((product)=> (
       
       <div className="frequentlyBookedLabtests_card">
-        <div style={{width:"80px",height:"30px",borderRadius:"4px", backgroundColor:"#F47779",color:"white",textAlign:"center"}}>
+        <div style={{width:"80px",height:"30px",borderRadius:"4px", backgroundColor:"#F47779",color:"white",alignItems:"center"}}>
         <p style={{marginBottom:"-10px",fontFamily:"sans-serif",lineHeight:"16px",fontWeight:"500",verticalAlign:"center"}}>{product.offer}</p>
          </div>
          <h3 style={{fontFamily:"sans-serif",color:"black", letterSpacing:"0.6px"}}>{product.heading}</h3> 
