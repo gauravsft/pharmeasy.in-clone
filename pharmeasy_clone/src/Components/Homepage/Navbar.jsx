@@ -16,7 +16,25 @@ import { BiChevronDown} from 'react-icons/bi';
 
 
 const Navbar= ()=> {
+  const [data, setData]=React.useState([]);
 
+  const getData  = async ()=>{
+      try{
+      let data= await fetch(`https://api.worldpostallocations.com?postalcode=${pincode}&countrycode=IN`);
+    let res= await data.json();
+    setData(res)
+ 
+      }
+      catch(err){
+          console.lohg(err)
+      }
+    
+
+  }
+  React.useEffect(()=>{
+      getData();
+  },[])
+  
 
     return (
       <>
