@@ -1,5 +1,5 @@
 import React from "react";
-import  ReactDOM  from "react-dom";
+import axios  from "axios";
 import "./CSS_Components/navbar.css"
 
 
@@ -18,16 +18,11 @@ import { BiChevronDown} from 'react-icons/bi';
 const Navbar= ()=> {
   const [data, setData]=React.useState([]);
 
-  const getData  = async ()=>{
-      try{
-      let data= await fetch(`https://api.worldpostallocations.com?postalcode=${pincode}&countrycode=IN`);
-    let res= await data.json();
-    setData(res)
- 
-      }
-      catch(err){
-          console.lohg(err)
-      }
+  const getData  =()=>{
+     axios.get(`https://api.postalpincode.in/pincode/411018`).then((response)=>{
+      console.log(response.data)
+      setData(response)
+     })
     
 
   }

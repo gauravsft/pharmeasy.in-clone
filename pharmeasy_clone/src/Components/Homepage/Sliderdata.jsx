@@ -1,4 +1,5 @@
 import React from "react";
+import axios  from "axios";
 import  ReactDOM  from "react-dom";
 import "./CSS_Components/home.css"
 import {
@@ -11,9 +12,6 @@ import {
 import "pure-react-carousel/dist/react-carousel.es.css";
 
 
-import {MdArrowBackIos} from 'react-icons/md';
-import {MdArrowForwardIos} from 'react-icons/md';
-
 
 
 const Sliderdata = () => {
@@ -21,17 +19,12 @@ const Sliderdata = () => {
     const [data, setData]=React.useState([]);
 
     const getData  = async ()=>{
-        try{
-        let data= await fetch("http://localhost:8080/sliderdata");
-      let res= await data.json();
-      setData(res)
-   
-        }
-        catch(err){
-            console.lohg(err)
-        }
-      
-
+      const getData  =()=>{
+        axios.get(`http://localhost:8080/sliderdata`).then((response)=>{
+         console.log(response.data)
+         setData(response)
+        })
+     }
     }
     React.useEffect(()=>{
         getData();
