@@ -1,0 +1,22 @@
+{
+  "cart": [
+    {
+    "id": 1,
+    "title": "Revital H Women Multivitamin With Calcium, Zinc, Ginseng For Immunity, Strong Bones & Energy 30 Tablets",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/I00596/revital-h-women-multivitamin-with-calcium-zinc-ginseng-for-immunity-strong-bones-energy-30-tablets-1-1654168794.jpg",
+    "offers": "15% off",
+    "priceP": 345.00,
+    "priceN": 293.25,
+    "rating": 429
+    },
+    {
+      "id": 2,
+      "title": "Durex Condom Extra Ribbed- 10s Pack Of 3",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/W63287/durex-condom-extra-ribbed-10s-pack-of-3-2-1646050401.jpg",
+      "offers": "35% off",
+      "priceP": 684.00,
+      "priceN": 444.60,
+      "rating": 10
+    }
+  ]
+}

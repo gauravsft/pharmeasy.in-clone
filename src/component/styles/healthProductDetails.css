@@ -1,0 +1,21 @@
+.hp3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 400px;
+    width: 80%;
+    gap: 20px;
+    margin: auto;
+    margin-top: 50px; ;
+}
+
+
+
+.hp3>div>img{
+    width: 90%;
+    height: 80%;
+    margin: 5%;
+}
+
+.hp3>div>h3,.hp3>div>p{
+    margin: 2%;
+}
