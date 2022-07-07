@@ -5,7 +5,7 @@ PharmEasy is an Indian company involved in selling online medicines, diagnostics
 
 ## Deployed Link
 
-- [https://pharmeasy-clone.netlify.app](https://pharmeasy-clone.netlify.app)
+- [https://pharmeasy-clone-react.netlify.app](https://pharmeasy-clone-react.netlify.app)
 
 
 ## Authors
