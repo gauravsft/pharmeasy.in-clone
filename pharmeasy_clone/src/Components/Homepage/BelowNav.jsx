@@ -22,7 +22,7 @@ const BelowNav= ()=> {
  </div>
  <div className="search_bar">
       <BsSearch style={{border:"none",padding:"5px"}}/>
-     <input style={{border:"none",width:"70%"}} type="text" />
+     <input style={{border:"none",width:"85%",marginLeft:"-20px",boxSizing:"border-box",outline:"solid #fc0 0",height:"3em"}} type="text" />
      <button className="search_bar_but">Search</button>
  </div>
 </div></>

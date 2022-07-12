@@ -16,19 +16,17 @@ import { BiChevronDown} from 'react-icons/bi';
 
 
 const Navbar= ()=> {
-  const [data, setData]=React.useState([]);
+  // const [data, setData]=React.useState([]);
 
-  const getData  =()=>{
-     axios.get(`https://api.postalpincode.in/pincode/411018`).then((response)=>{
-      console.log(response.data)
-      setData(response)
-     })
-    
-
-  }
-  React.useEffect(()=>{
-      getData();
-  },[])
+  // const getData  =()=>{
+  //    axios.get(`https://api.postalpincode.in/pincode/411018`).then((response)=>{
+  //     console.log(response.data)
+  //     setData(response)
+  //    })
+  // }
+  // React.useEffect(()=>{
+  //     getData();
+  // },[])
   
 
     return (

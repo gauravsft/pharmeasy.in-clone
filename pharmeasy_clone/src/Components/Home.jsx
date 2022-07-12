@@ -15,6 +15,8 @@ import ImmunityBoosters from "./Homepage/ImmunityBoosters"
 import Slidereg from "./Homepage/Slidereg"
 import PaytmOffer from "./Homepage/PaytmOffer";
 import Footer  from "./Homepage/Footer";
+import Signup from "./SignUp/Signup"
+import Signin from "./Signin/Signin"
 
 
 const Home= ()=> {
@@ -22,8 +24,12 @@ const Home= ()=> {
 
     return (
       <>
+     
       <Navbar />
       <BelowNav />
+      <Signup/>
+      <div style={{height:"50px"}}></div>
+      <Signin/>
       <Sliderdata />
       <Slidereg/>
       <div style={{

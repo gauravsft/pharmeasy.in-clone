@@ -1,6 +1,12 @@
 import React from "react";
+<<<<<<< Updated upstream
 import {  signInWithEmailAndPassword, } from "firebase/auth";
 import {auth} from "../../firebase"
+=======
+import {  signInWithEmailAndPassword,onAuthStateChanged } from "firebase/auth";
+import {auth} from "../../firebase"
+import { useState } from "react";
+>>>>>>> Stashed changes
 //import axios  from "axios";
 
 const Signin= ()=> {
@@ -19,7 +25,14 @@ const Signin= ()=> {
          console.log("error")
         }
  }
+<<<<<<< Updated upstream
 
+=======
+ const [user, setuser]=useState({});
+ onAuthStateChanged(auth,(currentUser)=>{
+     setuser(currentUser)
+ })
+>>>>>>> Stashed changes
 
     return (
       <>
@@ -41,7 +54,11 @@ const Signin= ()=> {
         <input type="password"></input>
         </div>
     <button onClick={login}>Login</button>
+<<<<<<< Updated upstream
      
+=======
+    <h1>{user?.email}</h1>
+>>>>>>> Stashed changes
       </>
     );
 }

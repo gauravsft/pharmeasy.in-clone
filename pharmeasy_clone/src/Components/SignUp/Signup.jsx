@@ -5,9 +5,13 @@ import firebase from "../../firebase";
 
 export class Signup extends Component{
     handleClick=()=>{
+<<<<<<< Updated upstream
         let recaptcha= new firebase.auth.RecaptchaVerifier('recaptcha');
         let number="+919850472567";
         firebase.auth.signInWithPhoneNumber()
+=======
+        let recaptcha= new
+>>>>>>> Stashed changes
 
     }
 
